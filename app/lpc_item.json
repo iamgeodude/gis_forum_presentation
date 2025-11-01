@@ -1,0 +1,555 @@
+{
+    "type": "Feature",
+    "stac_version": "1.1.0",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+    ],
+    "id": "stratmap19-50cm_3198091a1.copc.laz",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.0,
+                    31.859375037742428,
+                    392.01
+                ],
+                [
+                    -99.0,
+                    31.875000875929317,
+                    392.01
+                ],
+                [
+                    -98.98437249981755,
+                    31.874999915571987,
+                    487.07
+                ],
+                [
+                    -98.98437513623479,
+                    31.8593740779659,
+                    487.07
+                ],
+                [
+                    -99.0,
+                    31.859375037742428,
+                    392.01
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -99,
+        31.85937408,
+        392.01,
+        -98.9843725,
+        31.87500088,
+        487.07
+    ],
+    "properties": {
+        "datetime": "2025-10-02T00:00:00Z",
+        "pc:count": 17073041,
+        "pc:encoding": ".laz",
+        "pc:schemas": [
+            {
+                "name": "X",
+                "size": 8,
+                "type": "floating"
+            },
+            {
+                "name": "Y",
+                "size": 8,
+                "type": "floating"
+            },
+            {
+                "name": "Z",
+                "size": 8,
+                "type": "floating"
+            },
+            {
+                "name": "Intensity",
+                "size": 2,
+                "type": "unsigned"
+            },
+            {
+                "name": "ReturnNumber",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "NumberOfReturns",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "ScanDirectionFlag",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "EdgeOfFlightLine",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "Classification",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "Synthetic",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "KeyPoint",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "Withheld",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "Overlap",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "ScanAngleRank",
+                "size": 4,
+                "type": "floating"
+            },
+            {
+                "name": "UserData",
+                "size": 1,
+                "type": "unsigned"
+            },
+            {
+                "name": "PointSourceId",
+                "size": 2,
+                "type": "unsigned"
+            },
+            {
+                "name": "GpsTime",
+                "size": 8,
+                "type": "floating"
+            },
+            {
+                "name": "ScanChannel",
+                "size": 1,
+                "type": "unsigned"
+            }
+        ],
+        "pc:statistics": [
+            {
+                "average": 500767.3455,
+                "count": 17073041,
+                "maximum": 501478.1,
+                "minimum": 500000,
+                "name": "X",
+                "position": 0,
+                "stddev": 418.9111386,
+                "variance": 175486.5421
+            },
+            {
+                "average": 3525680.404,
+                "count": 17073041,
+                "maximum": 3526580.62,
+                "minimum": 3524848.65,
+                "name": "Y",
+                "position": 1,
+                "stddev": 486.9876054,
+                "variance": 237156.9278
+            },
+            {
+                "average": 448.6801124,
+                "count": 17073041,
+                "maximum": 487.07,
+                "minimum": 392.01,
+                "name": "Z",
+                "position": 2,
+                "stddev": 7.203323087,
+                "variance": 51.8878635
+            },
+            {
+                "average": 11524.85196,
+                "count": 17073041,
+                "maximum": 65535,
+                "minimum": 0,
+                "name": "Intensity",
+                "position": 3,
+                "stddev": 4702.510566,
+                "variance": 22113605.62
+            },
+            {
+                "average": 1.066137427,
+                "count": 17073041,
+                "maximum": 4,
+                "minimum": 1,
+                "name": "ReturnNumber",
+                "position": 4,
+                "stddev": 0.2509073655,
+                "variance": 0.06295450606
+            },
+            {
+                "average": 1.132257985,
+                "count": 17073041,
+                "maximum": 4,
+                "minimum": 1,
+                "name": "NumberOfReturns",
+                "position": 5,
+                "stddev": 0.3440063104,
+                "variance": 0.1183403416
+            },
+            {
+                "average": 0.498440846,
+                "count": 17073041,
+                "maximum": 1,
+                "minimum": 0,
+                "name": "ScanDirectionFlag",
+                "position": 6,
+                "stddev": 0.4999975837,
+                "variance": 0.2499975837
+            },
+            {
+                "average": 0.0006628578939,
+                "count": 17073041,
+                "maximum": 1,
+                "minimum": 0,
+                "name": "EdgeOfFlightLine",
+                "position": 7,
+                "stddev": 0.02573749312,
+                "variance": 0.0006624185521
+            },
+            {
+                "average": 2.199059675,
+                "count": 17073041,
+                "maximum": 20,
+                "minimum": 1,
+                "name": "Classification",
+                "position": 8,
+                "stddev": 1.204279619,
+                "variance": 1.4502894
+            },
+            {
+                "average": 1.753835458,
+                "count": 17073041,
+                "maximum": 21,
+                "minimum": -19.99799919,
+                "name": "ScanAngleRank",
+                "position": 9,
+                "stddev": 12.79990666,
+                "variance": 163.8376106
+            },
+            {
+                "average": 0.4960087661,
+                "count": 17073041,
+                "maximum": 1,
+                "minimum": 0,
+                "name": "UserData",
+                "position": 10,
+                "stddev": 0.4999840844,
+                "variance": 0.2499840847
+            },
+            {
+                "average": 12.65237083,
+                "count": 17073041,
+                "maximum": 14,
+                "minimum": 11,
+                "name": "PointSourceId",
+                "position": 11,
+                "stddev": 0.7151712217,
+                "variance": 0.5114698763
+            },
+            {
+                "average": 236028269.1,
+                "count": 17073041,
+                "maximum": 236029430,
+                "minimum": 236026850.2,
+                "name": "GpsTime",
+                "position": 12,
+                "stddev": 480.9674571,
+                "variance": 231329.6948
+            },
+            {
+                "average": 0,
+                "count": 17073041,
+                "maximum": 0,
+                "minimum": 0,
+                "name": "ScanChannel",
+                "position": 13,
+                "stddev": 0,
+                "variance": 0
+            },
+            {
+                "average": 0,
+                "count": 17073041,
+                "maximum": 0,
+                "minimum": 0,
+                "name": "Synthetic",
+                "position": 14,
+                "stddev": 0,
+                "variance": 0
+            },
+            {
+                "average": 0,
+                "count": 17073041,
+                "maximum": 0,
+                "minimum": 0,
+                "name": "KeyPoint",
+                "position": 15,
+                "stddev": 0,
+                "variance": 0
+            },
+            {
+                "average": 0.002805241316,
+                "count": 17073041,
+                "maximum": 1,
+                "minimum": 0,
+                "name": "Withheld",
+                "position": 16,
+                "stddev": 0.05289018908,
+                "variance": 0.002797372101
+            },
+            {
+                "average": 0.3800089275,
+                "count": 17073041,
+                "maximum": 1,
+                "minimum": 0,
+                "name": "Overlap",
+                "position": 17,
+                "stddev": 0.4853886652,
+                "variance": 0.2356021563
+            }
+        ],
+        "pc:type": "lidar",
+        "proj:bbox": [
+            500000,
+            3524848.65,
+            392.01,
+            501478.1,
+            3526580.62,
+            487.07
+        ],
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        500000.0,
+                        3524848.65,
+                        392.01
+                    ],
+                    [
+                        500000.0,
+                        3526580.62,
+                        392.01
+                    ],
+                    [
+                        501478.10000000003,
+                        3526580.62,
+                        487.07
+                    ],
+                    [
+                        501478.10000000003,
+                        3524848.65,
+                        487.07
+                    ],
+                    [
+                        500000.0,
+                        3524848.65,
+                        392.01
+                    ]
+                ]
+            ]
+        },
+        "proj:projjson": {
+            "type": "CompoundCRS",
+            "name": "NAD83(2011) / UTM zone 14N + NAVD88 height - Geoid12B (metres)",
+            "components": [
+                {
+                    "type": "ProjectedCRS",
+                    "name": "NAD83(2011) / UTM zone 14N",
+                    "base_crs": {
+                        "type": "GeographicCRS",
+                        "name": "NAD83(2011)",
+                        "datum": {
+                            "type": "GeodeticReferenceFrame",
+                            "name": "NAD83 (National Spatial Reference System 2011)",
+                            "ellipsoid": {
+                                "name": "GRS 1980",
+                                "semi_major_axis": 6378137,
+                                "inverse_flattening": 298.257222101
+                            }
+                        },
+                        "coordinate_system": {
+                            "subtype": "ellipsoidal",
+                            "axis": [
+                                {
+                                    "name": "Geodetic latitude",
+                                    "abbreviation": "Lat",
+                                    "direction": "north",
+                                    "unit": {
+                                        "type": "AngularUnit",
+                                        "name": "Degree",
+                                        "conversion_factor": 0.0174532925199433
+                                    }
+                                },
+                                {
+                                    "name": "Geodetic longitude",
+                                    "abbreviation": "Lon",
+                                    "direction": "east",
+                                    "unit": {
+                                        "type": "AngularUnit",
+                                        "name": "Degree",
+                                        "conversion_factor": 0.0174532925199433
+                                    }
+                                }
+                            ]
+                        },
+                        "id": {
+                            "authority": "EPSG",
+                            "code": 6318
+                        }
+                    },
+                    "conversion": {
+                        "name": "UTM zone 14N",
+                        "method": {
+                            "name": "Transverse Mercator",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 9807
+                            }
+                        },
+                        "parameters": [
+                            {
+                                "name": "Latitude of natural origin",
+                                "value": 0,
+                                "unit": {
+                                    "type": "AngularUnit",
+                                    "name": "Degree",
+                                    "conversion_factor": 0.0174532925199433
+                                },
+                                "id": {
+                                    "authority": "EPSG",
+                                    "code": 8801
+                                }
+                            },
+                            {
+                                "name": "Longitude of natural origin",
+                                "value": -99,
+                                "unit": {
+                                    "type": "AngularUnit",
+                                    "name": "Degree",
+                                    "conversion_factor": 0.0174532925199433
+                                },
+                                "id": {
+                                    "authority": "EPSG",
+                                    "code": 8802
+                                }
+                            },
+                            {
+                                "name": "Scale factor at natural origin",
+                                "value": 0.9996,
+                                "unit": "unity",
+                                "id": {
+                                    "authority": "EPSG",
+                                    "code": 8805
+                                }
+                            },
+                            {
+                                "name": "False easting",
+                                "value": 500000,
+                                "unit": "metre",
+                                "id": {
+                                    "authority": "EPSG",
+                                    "code": 8806
+                                }
+                            },
+                            {
+                                "name": "False northing",
+                                "value": 0,
+                                "unit": "metre",
+                                "id": {
+                                    "authority": "EPSG",
+                                    "code": 8807
+                                }
+                            }
+                        ]
+                    },
+                    "coordinate_system": {
+                        "subtype": "Cartesian",
+                        "axis": [
+                            {
+                                "name": "X",
+                                "abbreviation": "",
+                                "direction": "east",
+                                "unit": "metre"
+                            },
+                            {
+                                "name": "Y",
+                                "abbreviation": "",
+                                "direction": "north",
+                                "unit": "metre"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "authority": "EPSG",
+                        "code": 6343
+                    }
+                },
+                {
+                    "type": "VerticalCRS",
+                    "name": "NAVD88 height",
+                    "datum": {
+                        "type": "VerticalReferenceFrame",
+                        "name": "North American Vertical Datum 1988"
+                    },
+                    "coordinate_system": {
+                        "subtype": "vertical",
+                        "axis": [
+                            {
+                                "name": "Up",
+                                "abbreviation": "",
+                                "direction": "up",
+                                "unit": "metre"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "authority": "EPSG",
+                        "code": 5703
+                    }
+                }
+            ]
+        },
+        "proj:wkt2": "PROJCS[\"NAD83(2011) / UTM zone 14N\",GEOGCS[\"NAD83(2011)\",DATUM[\"NAD83_National_Spatial_Reference_System_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1116\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"Degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"6318\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-99],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"6343\"]]"
+    },
+    "links": [
+        {
+            "rel": "derived_from",
+            "href": "https://stac.iamgeodude.com/STAC_CNG/c/stratmap-2019-50cm-brown-county/resources/uncompressed/lpc/stratmap19-50cm_3198091a1.copc.laz"
+        },
+        {
+            "rel": "self",
+            "href": "https://stac.iamgeodude.com/STAC_CNG/c/stratmap-2019-50cm-brown-county/stratmap19-50cm_3198091a1.copc.laz.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "https://stac.iamgeodude.com/STAC_CNG/c/stratmap-2019-50cm-brown-county/collection.json",
+            "type": "application/json",
+            "title": "stratmap-2019-50cm-brown-county"
+        }
+    ],
+    "assets": {
+        "data": {
+            "href": "https://stac.iamgeodude.com/STAC_CNG/c/stratmap-2019-50cm-brown-county/resources/uncompressed/lpc/stratmap19-50cm_3198091a1.copc.laz",
+            "title": "Pointcloud data"
+        }
+    },
+    "collection": "stratmap-2019-50cm-brown-county"
+}
