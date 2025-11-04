@@ -1,0 +1,14 @@
+{
+    "MD033": {
+        "allowed_elements": [
+            "img",
+            "div",
+            "section"
+        ]
+    },
+    "MD025": false,
+    "no-inline-html": false,
+    "no-alt-text": false,
+    "first-line-heading": false,
+    "line-length": false
+}
