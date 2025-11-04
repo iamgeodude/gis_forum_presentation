@@ -11,8 +11,8 @@ cloudflare_r2_prefix = (
 )
 
 cloudflare_r2_config = {
-    "access_key_id": "c899ffa55432cb8a57c3590e225e4f68",
-    "secret_access_key": "df8b19e550258621e450c352efefbc3393d5f4da01f5d0caf28f77b2c77878cf",
+    "access_key_id": "XXXXXXXXXXXXXXXXXXX",
+    "secret_access_key": "XXXXXXXXXXXXXXXXXXX",
     "endpoint": cloudflare_r2_url,
 }
 
