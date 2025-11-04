@@ -1,4 +1,3 @@
-
 <a data-id="logo" href="https://geographic.texas.gov"
 style="font-size: 16px;" class="r-hstack gap">
     <img src="./assets/z_general/TxGIO_Primary_Horizontal.png" alt="txgio logo"

@@ -118,25 +118,24 @@
 						Standards and Community
 					</h3>
 				</section>
-				<section data-background-iframe="https://cloudnativegeo.org/about/" data-background-color="white"
-					data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
-					class="fade-in-then-out">
+				<section data-background-iframe="https://cloudnativegeo.org/about/" data-background-interactive
+					data-background-color="white" data-auto-animate
+					data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" class="fade-in-then-out">
 					<h4 style="padding: 8px; background: #191919; color: white;">Cloud Native Geospatial Forum</h4>
 				</section>
-				<section data-background-iframe="https://ogc.org/who-we-are" data-background-color="white"
-					data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+				<section data-background-iframe="https://ogc.org/who-we-are" data-background-interactive
+					data-background-color="white" data-auto-animate
+					data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
 					<h4 style="padding: 8px; background: #191919; color: white;">Open Geospatial Consortium</h4>
 				</section>
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
-					data-markdown="./assets/1_know_it/1a_what/2_cng_formats.md" data-separator="^\r?\n\r?\n\r?\n"
-					data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="iso-8859-15"
-					style="font-size: 36px;">
+					data-markdown="./assets/1_know_it/1a_what/2_cng_formats.md" data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size: 36px;">
 				</section>
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
-					data-markdown="./assets/1_know_it/1a_what/3_cog.md" data-separator="^\r?\n\r?\n\r?\n"
-					data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="iso-8859-15"
-					style="font-size: 36px;"></section>
-
+					data-markdown="./assets/1_know_it/1a_what/3_cog.md" data-separator-vertical="^\n\n"
+					data-charset="iso-8859-15" style="font-size: 36px;">
+				</section>
 			</section>
 			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
 				<h2>
@@ -168,7 +167,8 @@
 			slideNumber: "c/t",
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight],
-			navigationMode: "linear"
+			navigationMode: "linear",
+			preloadIframes: true,
 		});
 
 	</script>
