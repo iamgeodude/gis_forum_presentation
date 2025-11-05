@@ -59,7 +59,7 @@ Libraries, software, and tools offering COG support ArcPro, QGIS, GDAL, GeoServe
 
 <!-- .slide: data-background-iframe="https://geoparquet.org/#:~:text=Releases-,About,-Apache%20Parquet%20is" data-background-interactive data-background-color="white" data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" -->
 ### Geoparquet <!-- .element: style="background: #19191980; padding: 8px; color: white;" -->
-
+<img src="./assets/3_use_it/duckdb_summarize_describe_hypso_parquet.png" style="max-width: 100%" class="fragment" />
 <aside class="notes">
 Next, for your vector data (points, polygons, lines, etc), you have geoparquet/parquet and flatgeobuf. I am most familiar with geoparquet, and since it is fully compatible with the existing and ubiquitous parquet file format, it also seems to be the most popular among CNG adopters. So I will focus on Parquet in this presentation. Parquet and other CNG formats work in similar ways to the COG, I won't get too deep into the nitty gritty. However, geoparquet has some unique characteristics. First, parquet is a columnar file database format, not row-oriented. This means that when you query a geoparquet file, you can retrieve data from specified columns. This can drastically reduce query response time as well as the response byte-size of data returned from a given query. As of February 2025, parquet offers native geometry and geography column types for vector data, and raster column type support is in active development.
 
