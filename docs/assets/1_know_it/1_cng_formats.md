@@ -48,9 +48,9 @@ GeoTIFF, .IMG, .MrSID, so on and so forth. COGs are an established OGC standard 
 
 Cloud Optimized Geotiffs work by providing:
 <ul>
-    <li>Internal file directories (IFDs)</li>
-    <li>Metadata used to get only data needed by indexing IFDs</li>
-    <li>Provides data addresses for byte_range requests</li>
+    <li>Internal file directories (IFDs) - see that the metadata in the header in the visual on the right points to the IFDs, referring where to find certain data</li>
+    <li>Metadata provides an index of sorts for these IFDs which work similarly to a tileindexed raster dataset</li>
+    <li>Metadata + IFDs provide data addresses for byte_range requests to fullfill queries directly from object storage</li>
 </ul>
 Libraries, software, and tools offering COG support ArcPro, QGIS, GDAL, GeoServer, Mapserver, FME, and more.
 </aside>

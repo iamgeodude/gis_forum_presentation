@@ -49,7 +49,7 @@ I am
 4. The manager of Application Development @ TxGIO, a division of the Texas Water Development Board
 
 I'd like to take a moment to thank you all for coming today, to our conference, and more specifically to my presentation.
-If nothing else, I hope that you leave this presentation more curious and more informed about Cloud Native Geospatial.
+At the very least, I hope that you leave this presentation more curious and more informed about Cloud Native Geospatial.
 </aside>
 </section>
 
