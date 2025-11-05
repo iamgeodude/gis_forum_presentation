@@ -15,6 +15,13 @@ Exploring CNG | Part 3: How to Read/Write CNG?
     </ul>
 </ol>
 
+---
+
+<h4>Example: GDAL Convert to COG</h3>
+<code data-trim class="language-bash">
+gdal_translate input.tif output.tif -of COG -co COMPRESS=LZW -co BLOCKSIZE=256
+<code>
+
 <aside class="notes">
 
 </aside>
@@ -40,7 +47,7 @@ Exploring CNG | Part 3: How to Read/Write CNG?
 <h2>How to Read/Write CNG? - Point Cloud (COPC)</h2>
 <ol class="fragment" style="font-size: 32px;">
     <ul>
-        <li>QGIS (desktop) | RW</li>
+        <li>QGIS (desktop) | RW* [version 3.44+ recommended]</li>
         <li>PDAL (CLI) | RW</li>
         <li>PDAL Python (Python) | RW</li>
         <li>
@@ -50,5 +57,5 @@ Exploring CNG | Part 3: How to Read/Write CNG?
 </ol>
 
 <aside class="notes">
-
+    With QGIS, translating laz to COPC is as simple as opening a .laz file in QGIS by creating a Point Cloud layer. QGIS automatically converts LAZ to COPC with QGIS version >=3.32.
 </aside>

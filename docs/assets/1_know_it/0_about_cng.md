@@ -51,7 +51,7 @@ related technologies and tools called the Cloud Native Geospatial Forum. They ho
 which I attended last year, and I highly recommend watching their videos which are posted to YouTube,
 or attending their event in-person. The next CNG Conference is on October 6-9, 2026 in Snowbird, Utah.
 It's a beautifully organized event and I highly recommend it to anyone interested in the concepts and techologies
-presented in this presentation.
+presented in this presentation. I did try to get some very smart folks from that conference to present these concepts to you today, but unfortunately our conference overlaps with a premier conference this year for geospatial software developers, the Free Open Source Software for Geospatial conference. So, for today, you'll have to get what you can from a relative noob to these concepts.
 
 It's important to note that CNG Forum is NOT a standards organization but a place for geospatial practitioners
 to coordinate and collaborate on the future of geospatial technology. CNG Forum defers to the OGC, or Open Geospatial Consortium, for standards, although some contributing members of CNG Forum are also contributing members of the OGC.
