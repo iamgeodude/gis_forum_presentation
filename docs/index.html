@@ -30,123 +30,23 @@
 
 		<!-- Any section element inside of this container is displayed as a slide -->
 		<div class="slides">
-			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-				<a data-id="logo" href="https://geographic.texas.gov">
-					<img src="./assets/z_general/TxGIO_Primary_Horizontal.png" alt="txgio logo"
-						style="height: 80px; background: transparent;" class="logo">
-				</a>
-				<h4 style="font-size: 36px;">Speedy, Massively Scalable, and Low Maintenance: </h4>
-				<h3>Exploring Cloud Native Geospatial</h3>
-				<p>
-					<small>Presented by <a href="https://github.com/iamgeodude/gis_forum_presentation">Chris
-							Repka</a></small>
-				</p>
+			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+				data-markdown="./assets/0_about/0a_intro.md" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size: 36px;">
 			</section>
 
-			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-				<a data-id="logo" href="https://geographic.texas.gov">
-					<img src="./assets/z_general/TxGIO_Primary_Horizontal.png" alt="txgio logo"
-						style="height: 80px; background: transparent;" class="logo">
-				</a>
-				<h2>Who is Chris Repka?</h2>
-				<ul class="fragment">
-					<li class="fragment">
-						Proud father of pitbull/lab and american short-hair
-					</li>
-					<li class="fragment">
-						Graduate of UT Austin School of Information, MSIS
-					</li>
-					<li class="fragment">
-						Certified nerd, loves GIS and tech
-					</li>
-					<li class="fragment">
-						Manager of Application Development @ TxGIO
-					</li>
-				</ul>
+			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+				data-markdown="./assets/1_know_it/0_about_cng.md" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size: 36px;">
 			</section>
-
-			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-				<a data-id="logo" href="https://geographic.texas.gov">
-					<img src="./assets/z_general/TxGIO_Primary_Horizontal.png" alt="txgio logo"
-						style="height: 80px; background: transparent;" class="logo">
-				</a>
-				<h2>Agenda</h2>
-				<ol class="fragment">
-					<li>
-						What is cloud native geospatial (CNG)?
-					</li>
-					<li class="fragment">
-						Why cloud native geospatial?
-					</li>
-					<li class="fragment">
-						How to use cloud native geospatial?
-					</li>
-					<li class="fragment">
-						How to create cloud native geospatial?
-					</li>
-					<li class="fragment">
-						How to catalog cloud native geospatial?
-					</li>
-				</ol>
-			</section>
-
-			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<a data-id="logo" href="https://geographic.texas.gov" style="font-size: 16px;" class="r-hstack gap">
-						<img src="./assets/z_general/TxGIO_Primary_Horizontal.png" alt="txgio logo"
-							style="height: 40px; background: transparent;" class="logo">
-						Exploring CNG | Part 1: What is CNG?
-					</a>
-					<h2>What is CNG?</h2>
-					<ul>
-						<li class="fragment">Partial reads</li>
-						<li class="fragment">Parallel reads</li>
-						<li class="fragment">File metadata in one read</li>
-						<li class="fragment">Addressable</li>
-						<li class="fragment">Capable of partitioning and tiling</li>
-						<li class="fragment">Accessible over HTTP using byte-range requests</li>
-					</ul>
-				</section>
-
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<a data-id="logo" href="https://geographic.texas.gov" style="font-size: 16px;" class="r-hstack gap">
-						<img src="./assets/z_general/TxGIO_Primary_Horizontal.png" alt="txgio logo"
-							style="height: 40px; background: transparent;" class="logo">
-						Exploring CNG | Part 1: What is CNG? - Standards and Community
-					</a>
-					<h3>
-						Standards and Community
-					</h3>
-				</section>
-				<section data-background-iframe="https://cloudnativegeo.org/about/" data-background-interactive
-					data-background-color="white" data-auto-animate
-					data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" class="fade-in-then-out">
-					<h4 style="padding: 8px; background: #191919; color: white;">Cloud Native Geospatial Forum</h4>
-				</section>
-				<section data-background-iframe="https://ogc.org/who-we-are" data-background-interactive
-					data-background-color="white" data-auto-animate
-					data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<h4 style="padding: 8px; background: #191919; color: white;">Open Geospatial Consortium</h4>
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
-					data-markdown="./assets/1_know_it/1a_what/2_cng_formats.md" data-separator-vertical="^\n\n"
-					data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size: 36px;">
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
-					data-markdown="./assets/1_know_it/1a_what/3_cog.md" data-separator-vertical="^\n\n"
-					data-charset="iso-8859-15" style="font-size: 36px;">
-				</section>
+			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+				data-markdown="./assets/1_know_it/1_cng_formats.md" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size: 36px;">
 			</section>
 			<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-				<h2>
-					Why CNG?
-				</h2>
-				<div class="fade-in-then-out">
-					test
-				</div>
+
 			</section>
 		</div>
-
 	</div>
 
 	<script src="dist/reveal.js"></script>
