@@ -36,7 +36,7 @@ and within the tech industry.
 <div class="r-hstack gap fragment fade-in-then-out" style="background: #fff; border: solid 1px #191919;">
         <ul>
             <li>Internal file directories (IFDs)</li>
-            <li>Metadata used to get only data needed</li>
+            <li>Metadata used to get only data needed by indexing IFDs</li>
             <li>Provides data addresses for byte_range requests</li>
         </ul>
         <img src="./assets/1_know_it/cog.png" style="max-height: 400px;" />
@@ -46,6 +46,12 @@ and within the tech industry.
 COGs store raster data types and can be viewed as a replacement for
 GeoTIFF, .IMG, .MrSID, so on and so forth. COGs are an established OGC standard and are commonly adopted by the USGS, Planet, Maxar, OpenAerialMap, and many other data providers.
 
+Cloud Optimized Geotiffs work by providing:
+<ul>
+    <li>Internal file directories (IFDs)</li>
+    <li>Metadata used to get only data needed by indexing IFDs</li>
+    <li>Provides data addresses for byte_range requests</li>
+</ul>
 Libraries, software, and tools offering COG support ArcPro, QGIS, GDAL, GeoServer, Mapserver, FME, and more.
 </aside>
 
@@ -55,7 +61,7 @@ Libraries, software, and tools offering COG support ArcPro, QGIS, GDAL, GeoServe
 ### Geoparquet <!-- .element: style="background: #19191980; padding: 8px; color: white;" -->
 
 <aside class="notes">
-Next, for your vector data (points, polygons, lines, etc), you have geoparquet/parquet and flatgeobuf. I am most familiar with geoparquet, and since it is fully compatible with the existing and ubiquitous parquet file format, it also seems to be the most popular among CNG adopters. Parquet and other CNG formats work in similar ways to the COG. However, geoparquet has some unique characteristics. First, parquet is a columnar file database format, not row-oriented. This means that when you query a geoparquet file, you can retrieve data from specified columns. This can drastically reduce query response time as well as the response byte-size of data returned from a given query. As of February 2025, parquet offers native geometry and geography column types for vector data, and raster column type support is in active development.
+Next, for your vector data (points, polygons, lines, etc), you have geoparquet/parquet and flatgeobuf. I am most familiar with geoparquet, and since it is fully compatible with the existing and ubiquitous parquet file format, it also seems to be the most popular among CNG adopters. So I will focus on Parquet in this presentation. Parquet and other CNG formats work in similar ways to the COG, I won't get too deep into the nitty gritty. However, geoparquet has some unique characteristics. First, parquet is a columnar file database format, not row-oriented. This means that when you query a geoparquet file, you can retrieve data from specified columns. This can drastically reduce query response time as well as the response byte-size of data returned from a given query. As of February 2025, parquet offers native geometry and geography column types for vector data, and raster column type support is in active development.
 
 Many big names in the industry have adopted geoparquet in production workloads, including Element84, Carto, Microsoft, Planet, Apache Sedona, Overture Maps Foundation, Whereobots, Snowflake, AWS, Google, and many more.
 

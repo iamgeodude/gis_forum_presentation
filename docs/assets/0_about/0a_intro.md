@@ -64,16 +64,13 @@ If nothing else, I hope that you leave this presentation more curious and more i
             What is cloud native geospatial (CNG)?
         </li>
         <li class="fragment">
+            Why cloud native geospatial?
+        </li>
+        <li class="fragment">
             How to use cloud native geospatial?
         </li>
         <li class="fragment">
             How to create cloud native geospatial?
-        </li>
-        <li class="fragment">
-            Why cloud native geospatial?
-        </li>
-        <li class="fragment">
-            How to catalog cloud native geospatial?
         </li>
     </ol>
 <aside class="notes">
@@ -83,10 +80,9 @@ is spent in another presentation (dont worry, I won't be offended!). That said, 
 will cover:
 
 1. What is CNG?
-2. What are some ways we can use and access CNG?
-3. What are some ways we can create CNG?
-4. Why would we want to adopt CNG data formats?
-5. And, if we have time, what is one way we can affectively catalog CNG data?
+2. Why would we want to adopt CNG data formats?
+3. What are some ways we can use and access CNG?
+4. What are some ways we can create CNG?
 
 </aside>
 </section>

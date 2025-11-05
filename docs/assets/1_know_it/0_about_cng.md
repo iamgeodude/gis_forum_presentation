@@ -46,7 +46,7 @@ MySQL or PostgreSQL. However, it is important to note that CNG files are read-on
     data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
     <h4 style="padding: 8px; background: #191919; color: white;">Cloud Native Geospatial Forum</h4>
 <aside class="notes">
-Not to be confused with CNG file formats, there is a community dedicated to advancing CNG data and
+Not to be confused with CNG file formats, there is a community dedicated to advancing CNG data formats and
 related technologies and tools called the Cloud Native Geospatial Forum. They hold an annual conference
 which I attended last year, and I highly recommend watching their videos which are posted to YouTube,
 or attending their event in-person. The next CNG Conference is on October 6-9, 2026 in Snowbird, Utah.
